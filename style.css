@@ -65,3 +65,7 @@
 .links :last-child{
     margin-left: 10px;
 }
+
+.small-logo{
+    width: 50px;
+}
