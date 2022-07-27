@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    background-color: rgb(204, 204, 204);
+}
+
+.hello{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: start;
+    border-top: orange;
+    border-bottom: rgb(233, 233, 233);
+    border-style: solid;
+}
+
+.title-header{
+    display: flex;
+    justify-content: center;
+}
+
+.body-content{
+    background-color: rgb(187, 187, 187);
+}
+
+.image{
+    width: 200px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+.education, .skills, .work{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+
+.button{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    border-radius: 80px;
+
+}
+
+.contact-card{
+    background-color: rgb(197, 191, 191);
+    width: 470px;
+    
+}
+.links{
+    display: flex;
+    justify-content: center
+}
+
+.links :last-child{
+    margin-left: 10px;
+}
